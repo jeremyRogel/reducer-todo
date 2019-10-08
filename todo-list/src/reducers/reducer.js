@@ -32,6 +32,7 @@ switch (action.type) {
             }
             return item
         })
+        
     case "removeCompleted":
         return state.filter(item => !item.completed)
     default:
